@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Café</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <header>
+        <h1>Café de la Casa</h1>
+        <nav>
+            <ul>
+                <li><a href="#publicar">Publicar Café</a></li>
+                <li><a href="#productos">Ver Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="publicar">
+        <h2>Publica tu Café</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre del Café:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre del café" required>
+
+            <label for="tipo">Tipo de Café:</label>
+            <select id="tipo" name="tipo">
+                <option value="espresso">Espresso</option>
+                <option value="latte">Latte</option>
+                <option value="americano">Americano</option>
+                <option value="mocha">Mocha</option>
+                <option value="capuccino">Capuccino</option>
+            </select>
+
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="precio" placeholder="Precio del café" required>
+
+            <button type="submit">Publicar Café</button>
+        </form>
+    </section>
+
+    <section id="productos">
+        <h2>Tipos de Café</h2>
+        <ul>
+            <li>
+                <h3>Espresso</h3>
+            </li>
+            <li>
+                <h3>Latte</h3>
+            </li>
+            <li>
+                <h3>Americano</h3>
+            </li>
+            <li>
+                <h3>Mocha</h3>
+            </li>
+            <li>
+                <h3>Capuccino</h3>
+            </li>
+        </ul>
+    </section>

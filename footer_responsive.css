@@ -1,0 +1,39 @@
+@media (max-width: 780px){
+
+    footer > .contenedor > .caja_2{
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .contenedor > .caja_1 >.logo{
+        grid-column: 1 / 5;
+        grid-row: 2 / -1;
+    }
+    .contenedor > .caja_2 > .nosotros > a{
+        text-align: center;
+        font-size: 11px;
+    }
+    .contenedor > .caja_2 > .nosotros{
+        grid-column: 1 / 4;
+        grid-row: 1 / -1;
+    }
+    .contenedor > .caja_2 > .politica > a{
+        text-align: center;
+        font-size: 11px;
+    }
+    .contenedor > .caja_2 > .politica{
+        grid-column: 6 / 9;
+        grid-row: 1 / -1;
+    }
+    .contenedor > .caja_2 > .terminos{
+        grid-column: -1 / 11;
+        grid-row: 1 / -1;
+    }
+    .contenedor > .caja_2 > .terminos > a{
+        text-align: center;
+        font-size: 11px;
+    }
+    
+
+}

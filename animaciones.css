@@ -1,0 +1,61 @@
+.primero > .caja_3 > a:hover, .cuarto > .caja_4 > a:hover, .tercero > .caja_3 > a:hover, .quinto > .caja_3 > a:hover{
+    background-color: #391C13;
+    color: #ffffff;
+}
+
+main > .cuarto > .caja_2{
+    animation-name: cambiar_imagenes;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambiar_imagenes{
+    0%{
+        background-image: url("./img/peñol.png");
+    }
+    20%{
+        background-image: url("./img/palmas.png");
+    }
+    40%{
+        background-image: url("./img/planta_cafe.png");
+    }
+    60%{
+        background-image: url("./img/monserrate.png");
+    }
+    80%{
+        background-image: url("./img/paisaje.png");
+    }
+    100%{
+        background-image: url("./img/montañas.png");
+    }
+}
+
+main > .segundo > .caja_1:hover, main > .segundo > .caja_2:hover, main > .segundo > .caja_3:hover, main > .segundo > .caja_4:hover, main > .quinto:hover{
+    background-color: #e2902d31;
+}
+
+/* scroll */
+@keyframes scroll{
+    0%{
+        opacity: 0; scale: 10%;
+    }
+    50%{
+        opacity: 0,5; scale: 50%;
+    }
+    100%{
+        opacity: 1; scale: 100%;
+    }
+}
+
+main > .segundo > .caja_1, main > .segundo > .caja_2, main > .segundo > .caja_3, main > .segundo > .caja_4{
+    view-timeline-name: --reveal;
+    animation-name: scroll;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 40% cover 50%;
+}
+
+

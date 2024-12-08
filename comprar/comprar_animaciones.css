@@ -1,0 +1,144 @@
+
+        /* nav */
+header > nav > .venta:hover{
+    background-color: #77401C;
+    border: 2px solid #ffffff;
+    border-color: #ffffff;
+}
+
+nav > .venta > a:hover{
+    color: #ffffff;
+}
+
+
+header > nav > .como_venta:hover{
+    border: none;
+    background-color: #ffffff;
+}
+nav > .como_venta > a:hover{
+    color: #3A1B11;
+}
+
+header > nav > .main:hover{
+    border: none;
+    background-color: #ffffff;
+}
+nav > .main > a:hover{
+    color: #3A1B11;
+}
+
+header > nav > .como_venta:hover{
+    border: none;
+    background-color: #ffffff;
+}
+nav > .como_venta > a:hover{
+    color: #3A1B11;
+}
+
+        /* Fin nav */
+
+        /* Contenedor_1 */
+
+main > .contenedor_1 > .boton:hover{
+    background-color: #3A1B11;
+}
+.contenedor_1 > .boton > a:hover{
+    color: #ffffff;
+}
+
+        /* conotenedor_2 */
+
+@keyframes scroll{
+    0%{
+        opacity: 0; scale: 10%;
+    }
+    50%{
+        opacity: 0,5; scale: 50%;
+    }
+    100%{
+        opacity: 1; scale: 100%;
+    }
+}
+@keyframes opacidad{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0,5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+main > .contenedor_2 > .mas{
+
+    view-timeline-name: --reveal;
+    animation-name: scroll;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 10% cover 30%;
+
+}
+
+main > .contenedor_2 > .mas:hover{
+    background-color: #3A1B11;
+}
+
+
+
+.contenedor_2 > .producto_1 >.imagen:hover{
+    background-size: 110%;
+}
+.contenedor_2 > .producto_2 >.imagen:hover{
+    background-size: 110%;
+}
+
+
+main > .contenedor_2 > .producto_1{
+
+    view-timeline-name: --reveal;
+    animation-name: scroll;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 10% cover 50%;
+
+}
+main > .contenedor_2 > .producto_2{
+
+    view-timeline-name: --reveal;
+    animation-name: scroll;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 10% cover 50%;
+
+}
+main > .contenedor_2 > .imagen{
+
+    view-timeline-name: --reveal;
+    animation-name: opacidad;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 10% cover 100%;
+
+}
+
+/* Contenedor_3 */
+
+.contenedor_3 > .buscar > .caja_1:hover, .contenedor_3 > .buscar > .caja_2:hover, .contenedor_3 > .buscar > .caja_3:hover, .contenedor_3 > .buscar > .caja_4:hover, .contenedor_3 > .buscar > .caja_5:hover, .contenedor_3 > .buscar > .caja_6:hover{
+
+    background-color: #3A1B11;
+
+}
+
+/* precio_compra */
+
+.caja_8 > .elementos > .precio_compra > .compra:hover, .caja_7 > .elementos > .precio_compra > .compra:hover, .caja_6 > .elementos > .precio_compra > .compra:hover, .caja_5 > .elementos > .precio_compra > .compra:hover, .caja_4 > .elementos > .precio_compra > .compra:hover, .caja_3 > .elementos > .precio_compra > .compra:hover, .caja_2 > .elementos > .precio_compra > .compra:hover, .caja_1 > .elementos > .precio_compra > .compra:hover{
+    background-color: #ffffff;
+}
+.caja_8 > .elementos > .precio_compra > .compra > a:hover, .caja_7 > .elementos > .precio_compra > .compra > a:hover, .caja_6 > .elementos > .precio_compra > .compra > a:hover, .caja_5 > .elementos > .precio_compra > .compra > a:hover, .caja_4 > .elementos > .precio_compra > .compra > a:hover, .caja_3 > .elementos > .precio_compra > .compra > a:hover, .caja_2 > .elementos > .precio_compra > .compra > a:hover, .caja_1 > .elementos > .precio_compra > .compra > a:hover{
+    color: #3A1B11;
+}
